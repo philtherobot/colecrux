@@ -1,0 +1,63 @@
+// Colecrux symbols for xkb on X.Org Server 7.x
+// 2023-08-23 by Philippe Payant
+
+xkb_symbols "colecrux" {
+
+    name[Group1]= "English (Colecrux)";
+
+    key <TLDE> { [        grave,   asciitilde                                    ] };
+    key <AE01> { [            1,       exclam                                    ] };
+    key <AE02> { [            2,           at,       masculine,      twosuperior ] };
+    key <AE03> { [            3,   numbersign,   guillemotleft,    threesuperior ] };
+    key <AE04> { [            4,       dollar,  guillemotright,         sterling ] };
+    key <AE05> { [            5,      percent,        EuroSign,              yen ] };
+    key <AE06> { [            6,  asciicircum                                    ] };
+    key <AE07> { [        equal,         plus,        multiply,         division ] };
+    key <AE08> { [            7,    ampersand                                    ] };
+    key <AE09> { [            8,     asterisk                                    ] };
+    key <AE10> { [            9,    parenleft                                    ] };
+    key <AE11> { [            0,   parenright                                    ] };
+    key <AE12> { [        minus,   underscore,          endash,           emdash ] };
+
+    key <AD01> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
+    key <AD02> { [            w,            W,      ediaeresis,       Ediaeresis ] };
+    key <AD03> { [            f,            F,      idiaeresis,       Idiaeresis ] };
+    key <AD04> { [            p,            P,     ocircumflex,      Ocircumflex ] };
+    key <AD05> { [            b,            B,     acircumflex,      Acircumflex ] };
+    key <AD06> { [  bracketleft,    braceleft                                    ] };
+    key <AD07> { [            j,            J                                    ] };
+    key <AD08> { [            l,            L                                    ] };
+    key <AD09> { [            u,            U                                    ] };
+    key <AD10> { [            y,            Y                                    ] };
+    key <AD11> { [    semicolon,        colon                                    ] };
+    key <AD12> { [   apostrophe,     quotedbl                                    ] };
+    key <BKSL> { [    backslash,          bar                                    ] };
+
+    key <AC01> { [            a,            A,          agrave,           Agrave ] };
+    key <AC02> { [            r,            R,     ecircumflex,      Ecircumflex ] };
+    key <AC03> { [            s,            S,          egrave,           Egrave ] };
+    key <AC04> { [            t,            T,          eacute,           Eacute ] };
+    key <AC05> { [            g,            G,     icircumflex,      Icircumflex ] };
+    key <AC07> { [            m,            M                                    ] };
+    key <AC08> { [            n,            N                                    ] };
+    key <AC09> { [            e,            E                                    ] };
+    key <AC10> { [            i,            I                                    ] };
+    key <AC11> { [            o,            O                                    ] };
+
+    key <LSGT> { [            z,            Z                                    ] };
+    key <AB01> { [            x,            X                                    ] };
+    key <AB02> { [            c,            C,        ccedilla,         Ccedilla ] };
+    key <AB03> { [            d,            D,          ugrave,           Ugrave ] };
+    key <AB04> { [            v,            V,     ucircumflex,      Ucircumflex ] };
+    key <AB05> { [            z,            Z                                    ] }; //Z appears here too because <LSGT> key is not present on ANSI keyboards
+    key <AB06> { [        slash,     question,    questiondown,       asciitilde ] };
+    key <AB07> { [            k,            K                                    ] };
+    key <AB08> { [            h,            H                                    ] };
+    key <AB09> { [        comma,         less                                    ] };
+    key <AB10> { [       period,      greater                                    ] };
+
+    key <SPCE> { [        space,        space,           space,     nobreakspace ] };
+
+    include "level3(ralt_switch)"
+};
+

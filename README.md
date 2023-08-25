@@ -13,8 +13,8 @@ See [Dreymar's Big Bag of Tricks, Ergonomy section](https://dreymar.colemak.org/
 Then french accented letters are added as a layer on AltGr.  No dead keys.
 
 ![Colemak DH Angle Wide](Colemak%20DH%20Angle%20Wide%20Layout.png)
-![Colemak DH Angle Wide Shift layer](Colemak DH Angle Wide Shift Layout.png)
-![Colemak DH Angle Wide AltGr layer](Colecrux AltGr layer.png)
+![Colemak DH Angle Wide Shift layer](Colemak%20DH%20Angle%20Wide%20Shift%20Layout.png)
+![Colemak DH Angle Wide AltGr layer](Colecrux%20AltGr%20layer.png)
 
 
 ## Installing

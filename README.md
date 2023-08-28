@@ -1,6 +1,6 @@
 # Colecrux
 
-This is an XKB layout for Colecrux. 
+This is the ColeCrux keyboard layout project.  It has a XKB layout and a Windows layout. 
 
 Colecrux starts with Colemak DH with the Angle and Wide mods.
 - Angle shifts the bottom left keys so your left hand can rotate a bit clockwise.
@@ -9,8 +9,8 @@ Colecrux starts with Colemak DH with the Angle and Wide mods.
 
 See [DreymaR's Big Bag of Tricks, Ergonomy section](https://dreymar.colemak.org/ergo-mods.html)
 
-
 Then french accented letters are added as a layer on AltGr.  No dead keys.
+
 
 #### Colemak DH Angle Wide
 ![Colemak DH Angle Wide](Colemak%20DH%20Angle%20Wide%20Layout.png)
@@ -23,6 +23,8 @@ Then french accented letters are added as a layer on AltGr.  No dead keys.
 
 
 ## Installing
+
+### Linux
 
 Add `symbols_us_colecrux` to `/usr/share/X11/xkb/symbols/us`.
 
@@ -38,6 +40,12 @@ Add this block in both `/user/share/X11/xkb/rules/base.xml`and `evdev.xml`.
 ```
 
 At least log-off then log-on is required for the changes to take effect.
+
+
+### Windows
+
+Use Microsoft Keyboard Layout Creator to load `ColeCrux.klc`.  Then use the "Build DLL and
+Setup Package" command.  The resulting installer can then be used to install the layout. 
 
 
 ### Attribution

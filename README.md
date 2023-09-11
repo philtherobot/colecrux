@@ -9,7 +9,7 @@ Colecrux starts with Colemak DH with the Angle and Wide mods.
 
 See [DreymaR's Big Bag of Tricks, Ergonomy section](https://dreymar.colemak.org/ergo-mods.html)
 
-Then french accented letters are added as a layer on AltGr.  No dead keys.
+Then french accented letters are added as a layer on AltGr.
 
 
 #### Colemak DH Angle Wide
@@ -64,3 +64,62 @@ Use a text editor and make sure the description is correct before building.
 ### Attribution
 
 The image of the Colemak CurlAWide layouts were taken from [DreymaR's EPKL software](https://github.com/DreymaR/BigBagKbdTrixPKL).
+
+
+## Future
+
+Add symbols:
+- ✓, check mark, U+2713
+- ✗, ballot X, U+2717
+
+
+## Development notes
+
+### French
+
+- à: U+00E0
+- è: U+00E8
+- ù: U+00F9
+- é: U+00E9
+- â: U+00E2
+- ê: U+00EA
+- î: U+00EE
+- ô: U+00F4
+- û: U+00FB
+- ä: U+00E4
+- ë: U+00EB
+- ï: U+00EF
+- ç: U+00E7
+- «: U+00AB
+- »: U+00BB
+
+
+### Misc
+
+- 38°: degree, U+00B0
+- →: right arrow, U+2192
+- ←: left arrow, U+2190
+- ↑: upward arrow, U+2191
+- ↓: downward arrow, U+2193
+- ↔: horizontal arrow, both ways, U+2194
+
+
+### Mathematics
+
+- ×: multiplication, U+00D7
+- ÷: division, U+00f7
+- x²: power of 2, U+00B2
+- x³: power of 3, U+00B3
+- ±: plus or minus, U+00B1
+- ≤: less than or equal: U+2264
+- ≥: greater than or equal: U+2265
+- ≈: approximately equal, U+2248
+- √: square root, U+221A
+- ∑: summation: U+2211
+
+
+### Greek
+
+- π: pi, U+03C0
+- μ: mu, U+03BC
+- Δ: capital delta

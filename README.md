@@ -77,6 +77,8 @@ Add symbols:
 
 ### French
 
+[Fréquence d'apparition des lettres (Wikipédia).](https://fr.wikipedia.org/wiki/Fr%C3%A9quence_d%27apparition_des_lettres)
+
 - à: U+00E0
 - è: U+00E8
 - ù: U+00F9
@@ -89,6 +91,7 @@ Add symbols:
 - ä: U+00E4
 - ë: U+00EB
 - ï: U+00EF
+- ü: U+00FC
 - ç: U+00E7
 - «: U+00AB
 - »: U+00BB
